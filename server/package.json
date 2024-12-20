@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "server.js",
+  "scripts": {
+    "dev": "cd app && nodemon server.js"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "user authentication",
+    "endpoint authentication"
+  ],
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "dotenv-expand": "^12.0.1",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
